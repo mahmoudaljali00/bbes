@@ -16,7 +16,7 @@ const About = () => {
               variants={fadeIn("right", 0.1)}
               initial="hidden"
               whileInView="show"
-              viewport={{ once: false, amount: "all" }}
+              viewport={{ once: false, amount: "some" }}
               className="max-w-[540px]"
             >
               {/* pretitle */}
