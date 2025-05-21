@@ -13,10 +13,10 @@ const About = () => {
           {/* text */}
           <div className="flex-1">
             <motion.div
-              variants={fadeIn("right", 0.2)}
+              variants={fadeIn("right", 0.1)}
               initial="hidden"
               whileInView="show"
-              viewport={{ once: false, amount: 0.8 }}
+              viewport={{ once: false, amount: "all" }}
               className="max-w-[540px]"
             >
               {/* pretitle */}
@@ -43,10 +43,10 @@ const About = () => {
           </div>
           {/* img */}
           <motion.div
-            variants={fadeIn("left", 0.2)}
+            variants={fadeIn("left", 0.1)}
             initial="hidden"
             whileInView="show"
-            viewport={{ once: false, amount: 0.8 }}
+            viewport={{ once: false, amount: "some" }}
             className="flex-1 xl:flex xl:justify-center "
           >
             <div className="xl:w-[444px] xl:h-[493px] relative">

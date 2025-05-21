@@ -115,7 +115,7 @@ const Services = () => {
           variants={fadeIn("up", 0.2)}
           initial="hidden"
           whileInView="show"
-          viewport={{ once: false, amount: 0.8 }}
+          viewport={{ once: false, amount: "some" }}
           className="text-center max-w-[540px] mx-auto mb-20 "
         >
           <Pretitle text={"Our Services"} center />
@@ -130,7 +130,7 @@ const Services = () => {
           variants={fadeIn("up", 0.3)}
           initial="hidden"
           whileInView="show"
-          viewport={{ once: false, amount: 0.8 }}
+          viewport={{ once: false, amount: "some" }}
         >
           <Tabs
             defaultValue="construction"
